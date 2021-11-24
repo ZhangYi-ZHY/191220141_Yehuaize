@@ -40,6 +40,7 @@ public class AboutActivity extends Activity implements OnClickListener
 {
 	private static final String PLAYSTORE_URL = "https://play.google.com/store/apps/developer?id=mick88";
 	private static final String FEEDBACK_ADDRESS = "contact@michaldabski.com";
+	//android studio教程所学方法
 	public void sendMessage(View view) {
 		// Do something in response to button
 		Intent intent = new Intent(this, com.michaldabski.filemanager.NewActivity.class);
